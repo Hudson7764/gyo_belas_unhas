@@ -18,8 +18,8 @@ npm run preview
 
 ## Estrutura
 
-- `src/data/site.js` — nome, WhatsApp, Instagram, localização
+- `src/data/site.js` — nome, WhatsApp, Instagram, localização, endereço e link do Google Maps
 - `src/data/services.js` — categorias e preços dos serviços
 - `src/data/portfolio.js` — fotos do portfólio
-- `src/components/` — seções da página (Header, Hero, About, Portfolio, Services, CTA, Contact, Footer)
-- `src/assets/` — imagens do portfólio
+- `src/components/` — seções da página (Header, Hero, Actions, About, Portfolio, Services, CTA, Contact, Footer)
+- `src/assets/` — imagens do portfólio e foto da profissional
