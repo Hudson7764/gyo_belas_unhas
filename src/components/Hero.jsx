@@ -33,7 +33,11 @@ export default function Hero() {
             detalhe.
           </p>
 
-          <div className="mt-8 flex flex-col items-center md:items-start gap-3">
+          <p className="mt-4 font-display italic text-lg sm:text-xl text-rose-dark text-balance">
+            Autoestima melhorada a apenas um clique.
+          </p>
+
+          <div className="mt-7 flex flex-col items-center md:items-start gap-3">
             <a
               href={site.whatsappUrl}
               target="_blank"
@@ -44,7 +48,7 @@ export default function Hero() {
               Agendar horário
             </a>
             <span className="text-xs sm:text-sm text-ink-soft/80 italic">
-              Atendimento somente com agendamento
+              Horários somente agendados com antecedência
             </span>
           </div>
         </div>

@@ -6,8 +6,19 @@ export const site = {
   instagramUrl: "https://instagram.com/gyobelasunhas_",
   whatsappNumber: "5535987064114",
   whatsappDisplay: "+55 (35) 9 8706-4114",
+  address: {
+    street: "Rua Amicis B. Libanco, 104",
+    neighborhood: "Centro",
+    city: "Serrania",
+    state: "MG",
+  },
   get whatsappUrl() {
     return `https://wa.me/${this.whatsappNumber}`;
+  },
+  get mapsUrl() {
+    const { street, neighborhood, city, state } = this.address;
+    const query = `${street}, ${neighborhood}, ${city} - ${state}`;
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   },
 };
 

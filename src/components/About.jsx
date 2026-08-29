@@ -15,6 +15,9 @@ export default function About() {
           delicado e feito com atenção aos detalhes. Escolha seu estilo e
           agende seu horário.
         </p>
+        <p className="mt-6 font-display italic text-base sm:text-lg text-gold">
+          Elevando autoestima através das unhas.
+        </p>
       </Reveal>
     </section>
   );
